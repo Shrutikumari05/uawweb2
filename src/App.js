@@ -11,8 +11,7 @@ function App() {
     <>
       <Router>
         <div>
-          <Navbar />
-          
+          <Navbar />        
             <Routes>
               {routes.map((ele) => (
                 <Route

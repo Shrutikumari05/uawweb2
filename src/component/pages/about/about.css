@@ -1,0 +1,93 @@
+* {
+  font-family: "Inter", "Inter Placeholder", "sans-serif";
+}
+.header {
+  place-content: center;
+  align-items: center;
+  background-color: rgb(229, 231, 236);
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  gap: 50px;
+  height: min-content;
+  overflow: hidden;
+  padding: 100px;
+  position: relative;
+  width: 100%;
+}
+.heading1 {
+  flex: 0 0 auto;
+  height: auto;
+  max-width: 100%;
+  position: relative;
+  transform: perspective(1200px);
+  white-space: pre-wrap;
+  width: auto;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  z-index: 2;
+
+  font-family: "Inter", "Inter Placeholder", "sans-serif";
+
+  letter-spacing: 0.06em;
+  color: rgb(239, 132, 37);
+  text-transform: capitalize;
+}
+h1 {
+  /* font-family: "Merriweather", sans-serif; */
+  font-size: 58px !important;
+}
+.textField {
+  place-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  gap: 20px;
+  height: min-content;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  transform: perspective(1200px);
+  z-index: 2;
+}
+h2 {
+  width: 380px;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.7px;
+  line-height: 1.5em;
+  text-align: center;
+  color: rgb(20, 33, 61);
+  font-family: var(--framer-font-family, Inter, Inter Placeholder, sans-serif);
+}
+.carousel {
+  aspect-ratio: 1.77778 / 1;
+  border-radius: 20px;
+  flex: 0 0 auto;
+  height: var(--framer-aspect-ratio-supported, 450px);
+  overflow: hidden;
+  position: relative;
+  transform: perspective(1200px);
+  width: 800px;
+  will-change: var(--framer-will-change-override, transform);
+  z-index: 2;
+}
+/* .textDiv {
+  flex: 0 0 auto;
+  height: auto;
+ 
+  white-space: pre;
+  z-index: 3;
+} */
+p {
+  width: auto;
+  font-family: "Inter", "Inter Placeholder", "sans-serif";
+  top: 104px;
+  left: 50%;
+  font-size: 48px;
+  font-style: italic;
+  letter-spacing: 0.07em;
+  color: rgb(229, 228, 228);
+  z-index: 3;
+}
