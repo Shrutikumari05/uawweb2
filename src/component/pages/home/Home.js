@@ -7,7 +7,6 @@ import img4 from "../../assets/img4.jpg";
 import unused1 from "../../assets/unused1.webp";
 import unused2 from "../../assets/unused2.webp";
 import "./home.css";
-import "../../pages/home/home.css";
 
 function Home() {
   return (
