@@ -321,7 +321,7 @@
   width: 232px;
   z-index: 1;
 }
-p {
+.pCardtext{
   bottom: 114px;
   flex: 0 0 auto;
   height: auto;

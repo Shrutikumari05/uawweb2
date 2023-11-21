@@ -134,7 +134,7 @@ function Home() {
               <div class="card_main ">
                 <img src={img4} class="card-img-top rounded" alt="" />
                 <div class="card-body">
-                  <p class="card-text">
+                  <p class="card-text pCardtext">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
@@ -147,7 +147,7 @@ function Home() {
               <div class="card_main">
                 <img src={img4} class="card-img-top rounded" alt="" />
                 <div class="card-body">
-                  <p class="card-text">
+                  <p class="card-text pCardtext">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.
@@ -159,7 +159,7 @@ function Home() {
               <div class="card_main">
                 <img src={img4} class="card-img-top rounded" alt="" />
                 <div class="card-body">
-                  <p class="card-text">
+                  <p class="card-text pCardtext">
                     This is a wider card with supporting text below as a natural
                     lead-in to additional content. This content is a little bit
                     longer.

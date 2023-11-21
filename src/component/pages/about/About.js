@@ -30,19 +30,19 @@ function About() {
             <div className="carousel-item active">
               <img src={img14} class="d-block w-100" alt="" />
               <div className="textDiv">
-                <p>Why US</p>
+                <p className="whyUscls">Why US</p>
               </div>
             </div>
             <div className="carousel-item">
               <img src={img18} className="d-block w-100" alt="..." />
               <div className="textDiv">
-                <p>Our vision</p>
+                <p className="whyUscls">Our vision</p>
               </div>
             </div>
             <div className="carousel-item">
               <img src={img17} className="d-block w-100" alt="..." />
               <div className="textDiv">
-                <p>Our mission</p>
+                <p className="whyUscls">Our mission</p>
               </div>
             </div>
           </div>
@@ -126,7 +126,7 @@ function About() {
 
           <div className="data1">
             <div className="icon">
-              <img src={icon} alt="" />
+              <img className="abImgIcon" src={icon} alt="" />
             </div>
             <div className="imgData">
               <div className="">
@@ -152,7 +152,7 @@ function About() {
 
           <div className="data">
             <div className="icon">
-              <img src={icon} alt="" />
+              <img className="abImgIcon" src={icon} alt="" />
             </div>
             <div className="imgData">
               <h2>Name</h2>
@@ -161,9 +161,7 @@ function About() {
           </div>
 
           <div className="data">
-            <div className="icon">
-              <img src={icon} alt="" />
-            </div>
+            <div className="icon"></div>
             <div className="imgData">
               <div className="">
                 <h2>Name</h2>
@@ -175,7 +173,7 @@ function About() {
 
           <div className="data">
             <div className="icon">
-              <img src={icon} alt="" />
+              <img className="abImgIcon" src={icon} alt="" />
             </div>
             <div className="imgData">
               <div className="">
@@ -200,3 +198,4 @@ function About() {
 }
 
 export default About;
+
