@@ -13,7 +13,7 @@ import CommonCard from "../../cardcomponent/CommonCard";
 function Partners() {
   return (
     <div className="pmaindiv container-fluid">
-      <div className="pfirst">
+      <div className="pfirst" data-aos="fade-up">
         <div className="psubSec">
           <div className="par_heading">
             <span>Our</span>
@@ -48,7 +48,7 @@ function Partners() {
         <div className="ovalDecoration2 "></div>
       </div>
 
-      <div className="psecond">
+      <div className="psecond" >
         <div
           id="carouselExampleControls"
           className="carousel slide secondDivImg"
@@ -157,7 +157,7 @@ function Partners() {
         <CommonButton keysss={"one"} />
       </div> */}
 
-      <div className="p_Last">
+      <div className="p_Last" data-aos="fade-up">
         
         <CommonCard/>
         

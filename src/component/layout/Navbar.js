@@ -171,7 +171,7 @@ const Navbar = () => {
                 </li>
                 <button
                   type="button"
-                  className="btn btn-dark"
+                  className="btn-dark"
                   style={{ position: "relative", left: "10%" }}
                 >
                   Log in

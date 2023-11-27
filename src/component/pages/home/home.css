@@ -76,9 +76,9 @@
 }
 
 .homeSubSec {
-  /* position: relative; */
+  position: relative;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 20px;
   /* font-family: Inter; */
   font-weight: 400;
   letter-spacing: -0.6px;
