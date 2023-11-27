@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./component/layout/Navbar";
 import Footer from "./component/layout/Footer";
 import routes from "./dummy/routes";
+import Companycomponent from "./component/companyComponent/Companycomponent";
 //import "./App.css";
 
 function App() {

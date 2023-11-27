@@ -1,11 +1,14 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { useNavigate } from "react-router-dom";
 import img14 from "../../assets/img14.jpg";
 import img18 from "../../assets/img18.jpg";
 import img17 from "../../assets/img17.jpg";
-import img4 from "../../assets/img4.jpg";
+// import img4 from "../../assets/img4.jpg";
 import img1 from "../../assets/img1.jpg";
 import "./partners.css";
+import CommonCard from "../../cardcomponent/CommonCard";
+
 
 function Partners() {
   return (
@@ -102,8 +105,8 @@ function Partners() {
 
             <div className="carousel-item">
               <img src={img17} className="d-block w-100" alt="..." />
-              <div className="p_subCard">
-                <div className="p_subcard_content">
+              <div className="p_subCard_company3">
+                <div className="p_subcard_content_compnay3">
                   <div className="p_company">
                     <h1>Company3</h1>
                   </div>
@@ -112,7 +115,7 @@ function Partners() {
                       "UANDWE's expertise and dedication to excellence have been
                       instrumental in transforming our business."
                       <br></br>
-                        -person
+                      -person
                     </h2>
                   </div>
                   <div className="">
@@ -150,50 +153,17 @@ function Partners() {
           </button>
         </div>
       </div>
-      
-      {/* <div className="container plast">
-        <div className="row gy-3 p_subCard">
-          <div className="col-md-4">
-            |
-            <div className="card h-100">
-              <img src={img4} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Company1</h5>
-
-                <Button className="btn btn-primary">view product</Button>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            |
-            <div className="card h-100">
-              <img src={img4} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Tromso, Norway $899</h5>
-                <p className="card-text1">
-                  Lorem ipsum dolor sit amet consectetur a
-                  jjhdhhighhighighigheigheihgeihgie
-                </p>
-               
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            |
-            <div className="card h-100">
-              <img src={img4} className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Tromso, Norway $899</h5>
-                <p className="card-text">
-                  Lorem ipsum dolor sit amet consectetur a
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
+      {/* <div>
+        <CommonButton keysss={"one"} />
       </div> */}
+
+      <div className="p_Last">
+        
+        <CommonCard/>
+        
+      </div>
+     
+
     </div>
   );
 }

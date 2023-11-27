@@ -1,3 +1,4 @@
+
 .pfirst {
   place-content: center;
   align-items: center;
@@ -106,7 +107,7 @@
   aspect-ratio: 1.77778 / 1;
   border-radius: 20px;
   flex: 0 0 auto;
-  height: 750px;
+  height: 715px;
   overflow: hidden;
   position: relative;
   transform: perspective(1200px);
@@ -154,8 +155,38 @@
   text-align: left;
   color: rgb(51, 51, 51);
 }
-
-.plast {
+.p_subcard_content_compnay3 {
+  place-content: flex-start center;
+  align-items: flex-start;
+  background-color: rgba(224, 219, 219, 0.895);
+  border-radius: 19px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  max-width: 2018px;
+  padding: 22px;
+  position: relative;
+  /* bottom: 50rem; */
+  width: 67%;
+  height: 67%;
+  z-index: 1;
+}
+.p_subCard_company3 {
+    place-content: center;
+    align-items: center;
+    gap: 10px;
+    bottom: 54rem;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: row;
+    height: 600px;
+    left: -54;
+    overflow: hidden;
+    position: absolute;
+    width: 600px;
+    /* z-index: 2; */
+}
+/* .plast {
   place-content: center;
   align-items: center;
   background-color: rgb(229, 229, 229);
@@ -167,9 +198,24 @@
   overflow: hidden;
   padding: 50px 40px 100px;
   position: relative;
-  width: 100%;
+  width: 100%;*/
+
+
+.p_Last{
+    place-content: center;
+    align-items: center;
+    background-color: rgb(229,229,229);
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 70px;
+    height: 555px;
+    overflow: hidden;
+    padding: 50px 40px 100px;
+    position: relative;
+    width:100%;
 }
-.psubCard {
+/* .psubCard {
   width: 880px;
   height: 600px;
-}
+} */

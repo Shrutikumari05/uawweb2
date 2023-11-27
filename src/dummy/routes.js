@@ -4,6 +4,10 @@ import Services from "../component/pages/service/Service";
 import Partners from "../component/pages/partners/Partners";
 import Careers from "../component/pages/careers/Careers";
 import Contact from "../component/pages/contact/Contact";
+import Companycomponent from "../component/companyComponent/Companycomponent";
+import Companycomponent2 from "../component/companyComponent/Companycomponent2";
+import Companycomponent3 from "../component/companyComponent/Companycomponent3";
+import Companycomponent4 from "../component/companyComponent/Companycomponent4";
 
 const routes = [
   {
@@ -40,6 +44,31 @@ const routes = [
     path: "contact",
     identifier: "contact",
     components: <Contact />,
+    isPrivate: false,
+  },
+  {
+    path: "product1",
+    identifier: "product1",
+    components: <Companycomponent />,
+    isPrivate: false,
+  },
+
+  {
+    path: "product2",
+    identifier: "product2",
+    components: <Companycomponent2 />,
+    isPrivate: false,
+  },
+  {
+    path: "product3",
+    identifier: "product3",
+    components: <Companycomponent3 />,
+    isPrivate: false,
+  },
+  {
+    path: "product4",
+    identifier: "product4",
+    components: <Companycomponent4 />,
     isPrivate: false,
   },
 ];

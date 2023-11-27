@@ -1,0 +1,53 @@
+.product_details {
+  place-content: flex-start center;
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: column;
+  gap: 20px;
+  height: min-content;
+  padding: 30px;
+  position: relative;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px,
+    rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px,
+    rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px,
+    rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px;
+  border-radius: 2rem;
+}
+.comp_card_h2 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+  line-height: 1.4em;
+  text-align: left;
+  color: rgb(0, 17, 34);
+}
+.comp_card_p2 {
+  font-family: "Inter", "Inter Placeholder", sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 1.6em;
+  text-align: left;
+  color: rgb(102, 102, 102);
+}
+
+/* .framer-U9LMR .framer-dgxxga {
+    place-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0.796192px 2.38858px -0.625px, rgba(0, 0, 0, 0.05) 0px 2.41451px 7.24352px -1.25px, rgba(0, 0, 0, 0.05) 0px 6.38265px 19.148px -1.875px, rgba(0, 0, 0, 0.05) 0px 20px 60px -2.5px;
+    display: flex;
+    flex: 0 0 auto;
+    flex-flow: column;
+    gap: 0px;
+    height: min-content;
+    min-width: 100px;
+    overflow: hidden;
+    padding: 0px;
+    position: relative;
+    transform: perspective(1200px);
+    width: 320px;
+    will-change: var(--framer-will-change-override, transform);
+ */

@@ -15,7 +15,7 @@ function About() {
         </div>
 
         <div className="textField" data-aos="fade-up">
-          <h2>
+          <h2 className="about_h2 sub_para">
             {" "}
             Watch a quick slide-show to understand our mission and vision
           </h2>
@@ -23,11 +23,12 @@ function About() {
 
         <div
           id="carouselExampleControls"
-          className="carousel slide"
+          className="carousel slide about_carousel"
           data-bs-ride="carousel"
         >
           <div className="carousel-inner">
             <div className="carousel-item active">
+            {/* <div className="active"> */}
               <img src={img14} class="d-block w-100" alt="" />
               <div className="textDiv">
                 <p className="whyUscls">Why US</p>
@@ -117,7 +118,7 @@ function About() {
             </div>
             <div className="imgData">
               <div className="">
-                <h2>Name</h2>
+                <h2 className="about_h2">Name</h2>
               </div>
 
               <h3>Designation</h3>
@@ -130,7 +131,7 @@ function About() {
             </div>
             <div className="imgData">
               <div className="">
-                <h2>Name</h2>
+                <h2 className="about_h2">Name</h2>
               </div>
 
               <h3>Designation</h3>
@@ -155,7 +156,7 @@ function About() {
               <img className="abImgIcon" src={icon} alt="" />
             </div>
             <div className="imgData">
-              <h2>Name</h2>
+              <h2 className="about_h2">Name</h2>
               <h3 className="designaation">Designation</h3>
             </div>
           </div>
@@ -164,7 +165,7 @@ function About() {
             <div className="icon"></div>
             <div className="imgData">
               <div className="">
-                <h2>Name</h2>
+                <h2 className="about_h2">Name</h2>
               </div>
 
               <h3 className="designaation">Designation</h3>
@@ -177,7 +178,7 @@ function About() {
             </div>
             <div className="imgData">
               <div className="">
-                <h2>Name</h2>
+                <h2 className="about_h2">Name</h2>
               </div>
 
               <h3 className="designaation">Designation</h3>
