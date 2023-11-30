@@ -75,7 +75,7 @@ function Footer() {
                         id="exampleFormControlInput1"
                         placeholder="name@example.com"
                       />
-                      <button type="button" class="btn btn-secondary">
+                      <button type="button" class="btn btn-secondary bg-light text-dark">
                         Submit
                       </button>
                     </div>
